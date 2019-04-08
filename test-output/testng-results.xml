@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5347" started-at="2019-04-08T17:43:34Z" finished-at="2019-04-08T17:43:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5347" started-at="2019-04-08T17:43:34Z" finished-at="2019-04-08T17:43:40Z">
+      <class name="restAPIDemo.AddBook">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:restAPIDemo.AddBook@6e1567f1]" name="setUp" is-config="true" duration-ms="15" started-at="2019-04-08T17:43:34Z" finished-at="2019-04-08T17:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addBookID(java.lang.String, java.lang.String)[pri:0, instance:restAPIDemo.AddBook@6e1567f1]" name="addBookID" duration-ms="4438" started-at="2019-04-08T17:43:34Z" data-provider="testData" finished-at="2019-04-08T17:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookID -->
+        <test-method status="PASS" signature="addBookID(java.lang.String, java.lang.String)[pri:0, instance:restAPIDemo.AddBook@6e1567f1]" name="addBookID" duration-ms="815" started-at="2019-04-08T17:43:39Z" data-provider="testData" finished-at="2019-04-08T17:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookID -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:restAPIDemo.AddBook@6e1567f1]" name="endTest" is-config="true" duration-ms="0" started-at="2019-04-08T17:43:40Z" finished-at="2019-04-08T17:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- restAPIDemo.AddBook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
